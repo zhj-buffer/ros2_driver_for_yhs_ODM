@@ -18,10 +18,13 @@ sudo cp ros2_drive_package_can_ctrol/include/ros2_drive_package_can_ctrol/libcon
 ```
 # step 3:
 ```
+cd ..
 colcon build
 ```
 # step 4:
 ```
+source install/setup.bash
+
 ros2 run ros2_drive_package_can_ctrol ros2_drive_package_can_ctrol
 
 1638245770.232171 [7] ros2_drive: using network interface wlan0 (udp/192.168.1.14) selected arbitrarily from: wlan0, l4tbr0, docker0                                 
