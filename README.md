@@ -5,6 +5,8 @@ CAN to USB is required and the default interface working with this moving base.
 
 Before the test, pls refer to the documents for USB setup on Ubuntu.
 
+NOTE: pls source your ROS2_DISTRO
+
 # step 1:
 ```
 mkdir dev_ws
