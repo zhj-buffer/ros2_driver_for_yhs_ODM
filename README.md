@@ -49,6 +49,22 @@ ros2 run ros2_drive_package_can_ctrol ros2_drive_package_can_ctrol
 ```
 # step 5:
 ```
+nvidia@nvidia-desktop:~/workspace/alan/ros2-driver-for-yhs-ODM$ ros2 topic list 
+/bms_fb 
+/bms_flag_fb
+/ctrl_cmd
+/ctrl_fb 
+/io_cmd
+/io_fb
+/l_wheel_fb
+/odom
+/parameter_events
+/r_wheel_fb
+/rear_free_ctrl_cmd
+/rosout
+/smoother_cmd_vel
+/tf
+
 xavier@xavier-desktop:~/ros2_ws$ ros2 topic echo /ctrl_cmd                                                                                                           
 1638243922.519584 [7]       ros2: using network interface wlan0 (udp/192.168.1.14) selected arbitrarily from: wlan0, l4tbr0, docker0                                 
                                                                                                                                                                      
