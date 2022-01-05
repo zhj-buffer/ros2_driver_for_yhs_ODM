@@ -88,14 +88,14 @@ ctrl_cmd_angular: 2.0
 ```
 # step 6：
 ```
-xavier@xavier-desktop:~/ros2_ws$ ros2 topic pub -r 10 /ctrl_cmd ros2_drive_package_msg/msg/CtrlCmd  "{ctrl_cmd_gear: 0, ctrl_cmd_linear: 1.0, ctrl_cmd_angular: 2.0}"
+xavier@xavier-desktop:~/ros2_ws$ ros2 topic pub -r 10 /ctrl_cmd ros2_drive_package_msg/msg/CtrlCmd  "{ctrl_cmd_gear: 3, ctrl_cmd_linear: 0.1, ctrl_cmd_angular: 0}"
                                                                                                                                                                      
 1638244346.337436 [7]       ros2: using network interface wlan0 (udp/192.168.1.14) selected arbitrarily from: wlan0, l4tbr0, docker0                                 
 publisher: beginning loop                                                                                                                                            
-publishing #1: ros2_drive_package_msg.msg.CtrlCmd(ctrl_cmd_gear=0, ctrl_cmd_linear=1.0, ctrl_cmd_angular=2.0)                                                        
+publishing #1: ros2_drive_package_msg.msg.CtrlCmd(ctrl_cmd_gear=3, ctrl_cmd_linear=0.1, ctrl_cmd_angular= 0)                                                        
                                                                                                                                                                      
-publishing #2: ros2_drive_package_msg.msg.CtrlCmd(ctrl_cmd_gear=0, ctrl_cmd_linear=1.0, ctrl_cmd_angular=2.0)                                                        
+publishing #2: ros2_drive_package_msg.msg.CtrlCmd(ctrl_cmd_gear=3, ctrl_cmd_linear=0.1, ctrl_cmd_angular= 0)                                                        
                                                                                                                                                                      
-publishing #3: ros2_drive_package_msg.msg.CtrlCmd(ctrl_cmd_gear=0, ctrl_cmd_linear=1.0, ctrl_cmd_angular=2.0)
+publishing #3: ros2_drive_package_msg.msg.CtrlCmd(ctrl_cmd_gear=3, ctrl_cmd_linear=0.1, ctrl_cmd_angular= 0)
 ```
 
