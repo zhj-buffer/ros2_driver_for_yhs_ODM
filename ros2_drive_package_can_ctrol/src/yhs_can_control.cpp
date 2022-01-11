@@ -307,6 +307,7 @@ void ros2_drive_package_can_ctrol::io_cmdCallBack(const ros2_drive_package_msg::
 		{
 			RCLCPP_ERROR(this->get_logger(),"send message failed, error code: %d",ret);
 		}
+		cmd_mutex_.unlock();
 }
 
 //
