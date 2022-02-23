@@ -68,6 +68,10 @@ target_link_libraries(${PROJECT_NAME}
 install(TARGETS ros2_drive_package_can_ctrol
  DESTINATION lib/${PROJECT_NAME})
 
+install(DIRECTORY param
+	DESTINATION share/${PROJECT_NAME}
+	)
+
 #rosidl_target_interfaces(ros2_drive_package_can_ctrol
 #  ${PROJECT_NAME} "rosidl_typesupport_cpp")
 
