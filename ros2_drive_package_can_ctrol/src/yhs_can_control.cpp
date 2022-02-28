@@ -99,8 +99,8 @@ class ros2_drive_package_can_ctrol: public rclcpp::Node
 						timer_odom_Frame_ = this->create_wall_timer(
 								1000ms, std::bind(&ros2_drive_package_can_ctrol::respond_odom_frame, this));
 
-						this->declare_parameter<std::string>("base_link_frame", "base_link");
-						//this->declare_parameter<std::string>("base_link_frame", "base_footprint");
+						//this->declare_parameter<std::string>("base_link_frame", "base_link");
+						this->declare_parameter<std::string>("base_link_frame", "base_footprint");
 						timer_base_link_Frame_ = this->create_wall_timer(
 								1000ms, std::bind(&ros2_drive_package_can_ctrol::respond_base_link_frame, this));
 
